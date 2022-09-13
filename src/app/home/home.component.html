@@ -1,0 +1,33 @@
+<swiper [spaceBetween]="30" [centeredSlides]="true" [autoplay]="{
+    delay: 2500,
+    disableOnInteraction: false
+  }" [pagination]="{
+    clickable: true
+  }" [navigation]="true" class="mySwiper">
+  <ng-template swiperSlide>
+    <img width="100%" class="roller-img" src="assets/images/swiper1.jpg" alt="">
+    <div class="main-bg">
+    </div>
+    <a class="thm-btn" routerLink="/catgories">shop now</a>
+    <h1 class="main-word wow fadeInDown"> Coffe the Gasoline of Life</h1>
+    <h1 class="main-sub-word wow fadeInDown">Coffee Because Bad Mornings Deserve Second Chance</h1>
+  </ng-template>
+  <ng-template swiperSlide>
+    <img width="100%" class="roller-img" src="assets/images/coffee-swper2.webp" alt="">
+    <div class="main-bg">
+
+    </div>
+    
+    <a class="thm-btn" routerLink="/catgories">shop now</a>
+
+    <h1 class="main-word wow fadeInDown"> Coffe the Gasoline of Life</h1>
+    <h1 class="main-sub-word wow fadeInDown">Coffee Because Bad Mornings Deserve Second Chance</h1>
+  </ng-template>
+</swiper>
+<p-dataView [value]="cars">
+  <ng-template let-car pTemplate="listItem">
+      <div>
+          {{car.id}}
+      </div>
+  </ng-template>
+</p-dataView>
