@@ -11,9 +11,24 @@ import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { SwiperModule } from 'swiper/angular';
 import {DataViewModule} from 'primeng/dataview';
-
-
-
+import { HttpClientModule } from '@angular/common/http';
+import {ButtonModule} from 'primeng/button';
+import {PanelModule} from 'primeng/panel';
+import {DropdownModule} from 'primeng/dropdown';
+import {DialogModule} from 'primeng/dialog';
+import {InputTextModule} from 'primeng/inputtext';
+import {RatingModule} from 'primeng/rating';
+import {RippleModule} from 'primeng/ripple';
+import { MenuComponent } from './menu/menu.component';
+import {CarouselModule} from 'primeng/carousel';
+import {ToastModule} from 'primeng/toast';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { PasswordModule } from "primeng/password";
+import { DividerModule } from "primeng/divider";
+import { FormsModule } from "@angular/forms";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import {  ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -22,7 +37,10 @@ import {DataViewModule} from 'primeng/dataview';
     FooterComponent,
     NavbarComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +48,25 @@ import {DataViewModule} from 'primeng/dataview';
     MenubarModule,
     SwiperModule,
     GalleriaModule,
-    DataViewModule
+    HttpClientModule,
+    DataViewModule,
+    ButtonModule,
+    PanelModule,
+    DropdownModule,
+    DialogModule,
+    InputTextModule,
+    RatingModule,
+    RippleModule,
+    CarouselModule,
+    ToastModule,
+    PasswordModule,
+    DividerModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule
+    
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'swiper/scss/pagination';
 @import 'swiper/scss';
-
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+
 }
 .menu{
     background-color: white !important;
@@ -33,3 +37,17 @@
 
 
 
+.grid-nogutter {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.product-grid-item[_ngcontent-dgo-c69] .product-grid-item-content[_ngcontent-dgo-c69] {
+    height: 462px !important;
+}
+.p-button{
+    background-color: #915B34 !important;
+    color: white;
+}
+.pi{
+    color: white;
+}

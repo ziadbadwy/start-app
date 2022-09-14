@@ -15,6 +15,7 @@ export class NavbarComponent implements OnInit {
     ngOnInit() {
         this.items = [
             {label: 'Home', icon:PrimeIcons.HOME,routerLink:'home'},
+            {label: 'Menu', icon:PrimeIcons.LIST,routerLink:'menu'},
             {label: 'Profile', icon:PrimeIcons.USER,routerLink:'profile'},
             {label: 'Cart', icon:PrimeIcons.SHOPPING_CART,routerLink:'Cart'},
             {label: 'Log Out', icon:PrimeIcons.SIGN_OUT}

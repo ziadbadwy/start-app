@@ -1,5 +1,40 @@
 {
-  "data":[
-     
+  "data": [{
+      "id": 1,
+      "name": "shirt",
+      "image": "swiper1.jpg",
+      "description": "we have good coffee you need to try",
+      "category": "tea",
+      "price": "100",
+      "sugar": 3
+
+    },
+    {
+      "id": 1,
+      "name": "shirt",
+      "image": "swiper1.jpg",
+      "description": "we have good coffee you need to try",
+      "category": "tea",
+      "price": "100",
+      "sugar": 3
+    },
+    {
+      "id": 1,
+      "name": "shirt",
+      "image": "swiper1.jpg",
+      "description": "we have good coffee you need to try",
+      "category": "tea",
+      "price": "100",
+      "sugar": 3
+    },
+    {
+      "id": 1,
+      "name": "shirt",
+      "image": "swiper1.jpg",
+      "description": "we have good coffee you need to try",
+      "category": "tea",
+      "price": "100",
+      "sugar": 0
+    }
   ]
 }
